@@ -73,7 +73,7 @@ export default function MainPage() {
                         
                     }}>AIpreneur website</span></h3>
                     <p className={classes.text}>
-                    Describe your AI/ML services or any other information you want to display on the left side.
+                    Where Vision Meets Intelligence: Pioneering AI-Driven Solutions that Illuminate Possibilities and Shape Tomorrow's World.
                     </p>
                 </div>
                 </Grid>
