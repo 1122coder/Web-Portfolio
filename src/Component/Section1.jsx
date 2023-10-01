@@ -1,14 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Kashif from "../Assets/kashifsaeed.png";
+import Mian from "../Assets/main.jpg";
 
 import '../Style/MainPage.css';
 
 import { makeStyles } from '@material-ui/core/styles';
-
-
-
-
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -32,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     },
     welcome: {
         marginBottom: theme.spacing(2),
-        fontSize: '3.44rem',
+        fontSize: '3.67rem',
         color: '#65FDF0',
         fontWeight: 900
         
@@ -40,7 +36,8 @@ const useStyles = makeStyles((theme) => ({
     floatingImage: {
       position: 'relative',
       animation: '$float 4s ease-in-out infinite',
-      backgroundColor: 'transparent'
+      backgroundColor: 'transparent',
+      paddingLeft: '3rem'
     },
     '@keyframes float': {
       '0%, 100%': {
@@ -67,14 +64,14 @@ export default function MainPage() {
             <Grid container spacing={2}>
                 <Grid xsm={12} sm={11} md={6}>
                 <div className={classes.textContainer}>
-                    <h3 className={classes.welcome}>Welcome to my <span style={{
+                    <h3 className={classes.welcome}>Welcome to<span style={{
                         background: `-webkit-linear-gradient(to top, #4481eb, #04befe)`,
                         WebkitBackgroundClip: 'text',
                         color: '#0504aa',
                         display: 'inline-block',
                         fontWeight: 'bold',
                         
-                    }}>services website</span></h3>
+                    }}>AIpreneur website</span></h3>
                     <p className={classes.text}>
                     Describe your AI/ML services or any other information you want to display on the left side.
                     </p>
@@ -83,8 +80,8 @@ export default function MainPage() {
                 <Grid xs={12} sm={11} md={4}>
                     <div className={classes.floatingImage}>
                         <img
-                        src={Kashif} // Replace with the URL of your image
-                        alt="Floating Image"
+                        src={Mian} // Replace with the URL of your image
+                        alt="Main"
                         className={`${classes.image} enlarged-image`}
                         />
                     </div>

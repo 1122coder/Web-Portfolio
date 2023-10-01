@@ -1,15 +1,17 @@
 import React from 'react';
-import Section1 from '../Component/Section1'
-import SnackBar from '../Component/SnackBar'
-
+import Header from '../Component/Header';
+import Section1 from '../Component/Section1';
+import AboutUsPage from '../Component/Section2';
+import Skills from '../Component/Skills';
 
 
 export default function MainPage() {
     return (
         <>
-        <SnackBar />
+        <Header />
         <Section1 />
-
+        <AboutUsPage />
+        <Skills />
         </>
     )
 }
