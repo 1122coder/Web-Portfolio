@@ -3,7 +3,8 @@ import Header from '../Component/Header';
 import Section1 from '../Component/Section1';
 import AboutUsPage from '../Component/Section2';
 import Skills from '../Component/Skills';
-
+import ProjectsDesc from '../Component/ProjectsDesc';
+//import ImageMasonry from '../Component/ImageMasonry';
 
 export default function MainPage() {
     return (
@@ -12,6 +13,8 @@ export default function MainPage() {
         <Section1 />
         <AboutUsPage />
         <Skills />
+        <ProjectsDesc />
+       
         </>
     )
 }

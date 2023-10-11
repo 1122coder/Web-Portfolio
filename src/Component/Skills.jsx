@@ -3,8 +3,6 @@ import {Divider, Grid, Paper, useMediaQuery } from '@mui/material';
 import {makeStyles} from "@material-ui/core/styles";
 
 
-import { useTheme } from '@emotion/react';
-import { hover } from '@testing-library/user-event/dist/hover';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,9 +12,11 @@ const useStyles = makeStyles((theme) => ({
   skills : {
     marginTop:'100px',
     height: '50vh',
+    margin: '1rem',
     backgroundColor: '#212121',
-    padding: '10px'
-
+    padding: '10px 20px', // Added padding on the left and right
+    borderRadius: '50px', // Added border-radius for a round shape
+    border: '1rem solid linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,119,88,0.9500175070028011) 0%, rgba(0,212,255,1) 100%, rgba(245,0,0,1) 100%)', // Added colorful border
   },
   skillsSmallScreen: {
     // Change the height for smaller screens
