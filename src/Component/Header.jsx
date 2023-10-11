@@ -7,9 +7,10 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: '#f00999',
 
- },
+},
  menuButton: {
     marginRight: theme.spacing(2),
  },
@@ -17,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     textAlign: 'center',
     fontSize: '2.134rem',
-    fontWeight:'400'
+    fontWeight:'400',
  },
 }));
 

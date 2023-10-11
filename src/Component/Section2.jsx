@@ -44,7 +44,7 @@ function AboutUSPage() {
 
       <Grid xs={12}>
         <div className={classes.aboutMe}>
-          <b>About Me</b>    
+          <b>About Us</b>    
         </div>
       </Grid>
       <Grid xs={12} sm={6}>
